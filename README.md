@@ -37,9 +37,9 @@ Hashcat's `--stdout` mode allows you to build the wordlist by combining multiple
 ### Activity: Generate the Wordlist
 
 1. **Prepare your input files**:
-   - (adjectives.txt)[https://github.com/dark-marc/spectrum-password-cracking/blob/main/adjectives.txt]: Contains all possible adjectives (e.g., happy, smart, tiny).  
-   - (nouns.txt)[https://github.com/dark-marc/spectrum-password-cracking/blob/main/nouns.txt]: Contains all possible nouns (e.g., dog, bird, fish).  
-   - (numbers.txt)[https://github.com/dark-marc/spectrum-password-cracking/blob/main/numbers.txt]: Contains all three-digit numbers from 000 to 999.
+   - [adjectives.txt](https://github.com/dark-marc/spectrum-password-cracking/blob/main/adjectives.txt): Contains all possible adjectives (e.g., happy, smart, tiny).  
+   - [nouns.txt](https://github.com/dark-marc/spectrum-password-cracking/blob/main/nouns.txt): Contains all possible nouns (e.g., dog, bird, fish).  
+   - [numbers.txt](https://github.com/dark-marc/spectrum-password-cracking/blob/main/numbers.txt): Contains all three-digit numbers from 000 to 999.
 
 2. **Combine adjectives and nouns** to create a `combined_wordlist.txt`:
    ```bash
